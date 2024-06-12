@@ -78,7 +78,7 @@ const UserController = {
                 }
 
                 //Verify Friend has Been Removed
-                const removedFriend = !dbUserData.friends.includes(params.friendId);
+                const removedFriend = !dbUserData.friends.includes(req.params.friendId);
 
                 if (removedFriend) {
                     res.json({ message: 'Friend deleted.', dbUserData });
