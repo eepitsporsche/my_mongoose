@@ -2,3 +2,4 @@ node_modules
 .DC_Store
 .env
 package-lock.json
+assets/video
