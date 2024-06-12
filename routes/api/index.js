@@ -1,5 +1,5 @@
 //Import Express Router and Routes
-const router = require(express).Router();
+const router = require('express').Router();
 const userRoutes = require('./userRoutes');
 const thoughtRoutes = require('./thoughtRoutes');
 
